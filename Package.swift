@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/taku-packages/AnyThinkiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git", exact: "8.4.7")
+        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git", exact: "8.5.2")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkFyberAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/AnyThink_Release/iosnetwork_2/AnyThinkFyberAdapter/8.4.7.2.9/AnyThinkFyberAdapter-8.4.7.2.9.zip",
-            checksum: "314e3f4976f91e0ab1e5b4dbed6d0d6e0760656d514d5f54d4ead4a2acf36d8e"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/AnyThink_Release/iosnetwork_2/AnyThinkFyberAdapter/80502.2.10/AnyThinkFyberAdapter-80502.2.10.zip",
+            checksum: "0c9904ddc2988c84059bc05ccbfd8c7365bee1895758420e1b251e3598ce9fec"
         ),
         .target(
             name: "AnyThinkMediationFyberAdapterTarget",
